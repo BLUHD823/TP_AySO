@@ -1,0 +1,1 @@
+El comando a utilizar para realizar dump traffic es tcdump. Para ejecutar hay que escribir sudo tcpdump
