@@ -1,0 +1,71 @@
+ssh keygen
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+ls -l
+cd repogit/
+git clone https://github.com/BLUHD823/TP_AySO_Paiva.git
+cd
+cd repogit/
+cd TP_AySO_Paiva/
+pwd
+ls -l
+cat /etc/os-release 
+clear
+man grep
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)" > datos usuario.txt
+git add .
+git config --global user.email "alejodeje@gmail.com"
+git config --global user.name "BLUHD823"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+ls -l
+cat datos
+file datos
+grep "model name" /proc/cpuinfo | tail -n1 | >> datos 
+cat datos
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1 | >> datos 
+grep "model name" /proc/cpuinfo head -n1 | >> datos 
+grep "model name" head -n1 /proc/cpuinfo
+grep "model name" /proc/cpuinfo tail -n1
+grep tail -n1 "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1 
+grep "model name" /proc/cpuinfo | head -n1 | >> datos 
+cat datos
+grep "model name" /proc/cpuinfo | head -n1 >> datos 
+cat datos 
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+man head
+man sort
+cat /etc/passwd
+man grep
+grep head -v "nologin"
+grep -v nologin /etc/passwd | head
+grep -v nologin /etc/passwd | head | sort -k7
+grep -v nologin /etc/passwd | head | sort -t: -k7
+grep -v nologin /etc/passwd | head | sort -t: -k7 > lista_ordenada.txt
+cat lista_ordenada.txt 
+git add .
+git commit -m "ADD: Listado de usuarios ordenado"
+echo "El comando a utilizar para realizar dump traffic es tcdump. Para ejecutar hay que escribir sudo tcpdump" > comando_dump_net.txt
+cat comando_dump_net.txt 
+git add .
+git commit -m "ADD: Comando para capturar y analizar el tráfico de red"
+ls -l
+cat README.md 
+cat << EOF > README.md 
+Alumno <Alejo Nehuen Paiva>
+División <DIV. 313>
+Turno <Noche>
+EOF
+
+cat README.md 
+git add .
+git commit -m "change: Se agregaron los datos del alumno al texto del README.md"
+history -a 
